@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
-/* Generics */
+/* Generic Section */
 
 * {
   margin: 0;
@@ -23,7 +23,7 @@
   font-weight: 700;
 }
 
-/* Landing Page */
+/* Landing Section */
 
 #landing__page {
   display: flex;
@@ -74,13 +74,13 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
 }
 
 .landing__info--container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 48px;
 }
 
 .personal__image--container {
@@ -119,6 +119,29 @@ nav {
 }
 
 .landing__image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Project Section */
+
+#projects {
+  background-color: #d3d3d3;
+}
+
+.project__title {
+  padding: 48px 0;
+  text-align: center;
+}
+
+.project__image--container {
+  width: 100%;
+  border-radius: 36px;
+  overflow: hidden;
+}
+
+.project__image {
   width: 100%;
   height: 100%;
   object-fit: contain;
