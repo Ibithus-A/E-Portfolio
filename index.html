@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>E-Portfolio</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="app.js"></script>
+    <!-- By clicking defer it runs smoother -->
   </head>
   <body>
     <section id="landing__page">
@@ -16,7 +18,32 @@
           <a class="nav__link--primary link__hover-effect" href="">Contact</a>
         </div>
       </nav>
-      <header class="flex flex-1"></header>
+      <header class="flex flex-1">
+        <div class="about__container row">
+          <div class="about__info">
+            <figure class="personal">
+              <img class="personal--image" src="" alt="" />
+            </figure>
+            <h1 class="about__info--title">
+              Hey I Am <span class="text__purple">Ibrahim Ahmed</span>
+            </h1>
+            <p class="about__info--para">
+              I am a
+              <span class="text__purple">Frontend Software Engineer</span> with
+              a strong passion for building responsive and performant web
+              applications wiht great user experiences that positively impacts
+              the world
+            </p>
+          </div>
+          <div class="about__image--container">
+            <img
+              class="about__image"
+              src="./assets/undraw_websites.svg"
+              alt=""
+            />
+          </div>
+        </div>
+      </header>
     </section>
   </body>
 </html>
