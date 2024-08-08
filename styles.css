@@ -236,7 +236,7 @@ header {
 .project {
   width: 100%;
   max-width: 700px;
-  height: 400px;
-  border-radius: 48px;
+  height: 450px;
+  border-radius: 20px;
   box-shadow: 0 20px 80px rgba(0,0,0,0.45);
 }
